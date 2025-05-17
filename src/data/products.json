@@ -1,0 +1,326 @@
+[
+  {
+    "id": 1,
+    "title": "Vintage Denim Jacket",
+    "description": "Classic vintage denim jacket in excellent condition. Perfect for layering in all seasons. Slightly oversized fit with authentic distressing.",
+    "price": 59.99,
+    "seller": "vintagelover",
+    "category": "outerwear",
+    "condition": "good",
+    "brand": "Levi's",
+    "size": "M",
+    "color": "blue",
+    "images": [
+      "/images/products/denim-jacket-1.jpg",
+      "/images/products/denim-jacket-2.jpg",
+      "/images/products/denim-jacket-3.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Floral Summer Dress",
+    "description": "Beautiful floral pattern summer dress. Light and flowy material, perfect for warm days. Only worn once for a photoshoot.",
+    "price": 28.50,
+    "seller": "fashionista",
+    "category": "dresses",
+    "condition": "like new",
+    "brand": "Zara",
+    "size": "S",
+    "color": "multicolor",
+    "images": [
+      "/images/products/floral-dress-1.jpg",
+      "/images/products/floral-dress-2.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Premium Leather Sneakers",
+    "description": "Minimalist white leather sneakers. Premium Italian leather with comfortable insoles. Minor signs of wear on the soles.",
+    "price": 65.00,
+    "seller": "shoelover",
+    "category": "shoes",
+    "condition": "good",
+    "brand": "Common Projects",
+    "size": "42",
+    "color": "white",
+    "images": [
+      "/images/products/leather-sneakers-1.jpg",
+      "/images/products/leather-sneakers-2.jpg",
+      "/images/products/leather-sneakers-3.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Cashmere Sweater",
+    "description": "Luxurious 100% cashmere sweater in a beautiful emerald green. Very soft and warm. Barely worn and in excellent condition.",
+    "price": 89.99,
+    "seller": "luxuryclothes",
+    "category": "knitwear",
+    "condition": "like new",
+    "brand": "COS",
+    "size": "L",
+    "color": "green",
+    "images": [
+      "/images/products/cashmere-sweater-1.jpg",
+      "/images/products/cashmere-sweater-2.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "High-Waisted Mom Jeans",
+    "description": "Trendy high-waisted mom jeans with a relaxed fit. Light blue wash with subtle distressing. Perfect vintage-inspired look.",
+    "price": 42.00,
+    "seller": "denimqueen",
+    "category": "bottoms",
+    "condition": "good",
+    "brand": "Weekday",
+    "size": "30",
+    "color": "light blue",
+    "images": [
+      "/images/products/mom-jeans-1.jpg",
+      "/images/products/mom-jeans-2.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Silk Blouse",
+    "description": "Elegant silk blouse in a beautiful cream color. Perfect for office or evening wear. 100% silk material with mother of pearl buttons.",
+    "price": 55.00,
+    "seller": "elegantfinds",
+    "category": "tops",
+    "condition": "good",
+    "brand": "& Other Stories",
+    "size": "M",
+    "color": "cream",
+    "images": [
+      "/images/products/silk-blouse-1.jpg",
+      "/images/products/silk-blouse-2.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Vintage Band T-Shirt",
+    "description": "Authentic vintage Rolling Stones tour t-shirt from the 90s. Well-worn with character but in good vintage condition.",
+    "price": 35.00,
+    "seller": "rockfan",
+    "category": "tops",
+    "condition": "fair",
+    "brand": "Original Merch",
+    "size": "L",
+    "color": "black",
+    "images": [
+      "/images/products/band-tshirt-1.jpg",
+      "/images/products/band-tshirt-2.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Leather Crossbody Bag",
+    "description": "Genuine leather crossbody bag in a versatile tan color. Multiple compartments and adjustable strap. Some patina from use adds character.",
+    "price": 75.00,
+    "seller": "bagcollector",
+    "category": "accessories",
+    "condition": "good",
+    "brand": "Madewell",
+    "size": "One Size",
+    "color": "tan",
+    "images": [
+      "/images/products/leather-bag-1.jpg",
+      "/images/products/leather-bag-2.jpg",
+      "/images/products/leather-bag-3.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Linen Blazer",
+    "description": "Lightweight linen blazer perfect for summer. Unstructured fit with minimal lining for breathability. Neutral beige color that goes with everything.",
+    "price": 49.99,
+    "seller": "minimalchic",
+    "category": "outerwear",
+    "condition": "like new",
+    "brand": "Massimo Dutti",
+    "size": "38",
+    "color": "beige",
+    "images": [
+      "/images/products/linen-blazer-1.jpg",
+      "/images/products/linen-blazer-2.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Platform Doc Martens",
+    "description": "Classic black Doc Martens with platform sole. Broken in but still in excellent condition. Vegan leather version.",
+    "price": 85.00,
+    "seller": "altfashion",
+    "category": "shoes",
+    "condition": "good",
+    "brand": "Dr. Martens",
+    "size": "39",
+    "color": "black",
+    "images": [
+      "/images/products/doc-martens-1.jpg",
+      "/images/products/doc-martens-2.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Pleated Midi Skirt",
+    "description": "Elegant pleated midi skirt in a vibrant emerald green. Elastic waistband for comfort. Perfect for office or special occasions.",
+    "price": 38.00,
+    "seller": "styleseeker",
+    "category": "bottoms",
+    "condition": "like new",
+    "brand": "H&M Premium",
+    "size": "S",
+    "color": "emerald",
+    "images": [
+      "/images/products/floral-dress-1.jpg",
+      "/images/products/floral-dress-2.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Chunky Knit Cardigan",
+    "description": "Oversized chunky knit cardigan in a warm oatmeal color. Perfect for cozy fall and winter days. Large wooden buttons and patch pockets.",
+    "price": 48.50,
+    "seller": "cozystyle",
+    "category": "knitwear",
+    "condition": "good",
+    "brand": "Mango",
+    "size": "M/L",
+    "color": "oatmeal",
+    "images": [
+      "/images/products/chunky-cardigan-1.jpg",
+      "/images/products/chunky-cardigan-2.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Strappy Summer Sandals",
+    "description": "Minimalist strappy sandals with low heel. Genuine leather in a versatile cognac color. Comfortable for all-day wear.",
+    "price": 32.00,
+    "seller": "summerstyle",
+    "category": "shoes",
+    "condition": "good",
+    "brand": "Vagabond",
+    "size": "38",
+    "color": "cognac",
+    "images": [
+      "/images/products/strappy-sandals-1.jpg",
+      "/images/products/strappy-sandals-2.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Patterned Silk Scarf",
+    "description": "Vintage inspired silk scarf with geometric pattern. Vibrant colors and high-quality silk. Perfect accessory for any outfit.",
+    "price": 22.99,
+    "seller": "vintagefinds",
+    "category": "accessories",
+    "condition": "like new",
+    "brand": "Unknown Vintage",
+    "size": "One Size",
+    "color": "multicolor",
+    "images": [
+      "/images/products/silk-scarf-1.jpg",
+      "/images/products/silk-scarf-2.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Wool Coat",
+    "description": "Classic wool coat in camel color. Timeless design with double-breasted front. Warm and elegant for winter.",
+    "price": 120.00,
+    "seller": "classicwardrobe",
+    "category": "outerwear",
+    "condition": "good",
+    "brand": "Arket",
+    "size": "M",
+    "color": "camel",
+    "images": [
+      "/images/products/wool-coat-1.jpg",
+      "/images/products/wool-coat-2.jpg",
+      "/images/products/wool-coat-3.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Cotton Jumpsuit",
+    "description": "Comfortable cotton jumpsuit in olive green. Casual yet stylish with adjustable waist tie. Perfect for everyday wear.",
+    "price": 45.00,
+    "seller": "casualchic",
+    "category": "one-piece",
+    "condition": "like new",
+    "brand": "Monki",
+    "size": "M",
+    "color": "olive",
+    "images": [
+      "/images/products/leather-bag-1.jpg",
+      "/images/products/leather-bag-2.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Statement Earrings",
+    "description": "Bold geometric statement earrings in gold tone. Lightweight despite their size. Add instant style to any outfit.",
+    "price": 18.50,
+    "seller": "accessorylover",
+    "category": "jewelry",
+    "condition": "like new",
+    "brand": "COS",
+    "size": "One Size",
+    "color": "gold",
+    "images": [
+      "/images/products/silk-scarf-1.jpg",
+      "/images/products/silk-scarf-2.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Canvas Tote Bag",
+    "description": "Durable canvas tote with leather handles. Spacious interior with small pocket. Perfect everyday bag.",
+    "price": 28.00,
+    "seller": "minimalist",
+    "category": "accessories",
+    "condition": "good",
+    "brand": "Baggu",
+    "size": "One Size",
+    "color": "natural",
+    "images": [
+      "/images/products/tote-bag-1.jpg",
+      "/images/products/tote-bag-2.jpg"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Tailored Trousers",
+    "description": "Classic black tailored trousers with slight crop. Perfect fit with stretch for comfort. Versatile for work or evenings out.",
+    "price": 52.00,
+    "seller": "workwardrobe",
+    "category": "bottoms",
+    "condition": "like new",
+    "brand": "COS",
+    "size": "38",
+    "color": "black",
+    "images": [
+      "/images/products/trousers-1.jpg",
+      "/images/products/trousers-2.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Striped Sundress",
+    "description": "Light and breezy sundress with blue and white stripes. Cotton material with button-down front. Perfect for beach days.",
+    "price": 34.99,
+    "seller": "beachstyle",
+    "category": "dresses",
+    "condition": "good",
+    "brand": "H&M",
+    "size": "S",
+    "color": "blue/white",
+    "images": [
+      "/images/products/floral-dress-1.jpg",
+      "/images/products/floral-dress-2.jpg"
+    ]
+  }
+]

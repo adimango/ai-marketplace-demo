@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: white;
+}
+
+/* Add smooth animations for hover states */
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.hover-scale:hover {
+  transform: scale(1.03);
+}
+
+/* Custom styling for product cards */
+.product-card {
+  @apply bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300;
+}
+
+.product-card-image-container {
+  @apply relative overflow-hidden aspect-square;
+}
+
+.product-card-image {
+  @apply object-cover w-full h-full transition-transform duration-300;
+}
+
+.product-card:hover .product-card-image {
+  transform: scale(1.05);
+}
+
+/* Horizontal scrolling lanes */
+.scroll-lane {
+  @apply flex gap-4 overflow-x-auto py-4 scrollbar-hide;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scroll-lane > * {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+
+/* Hide scrollbar but keep functionality */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Category cards */
+.category-card {
+  @apply relative overflow-hidden rounded-lg;
+}
+
+/* Apply the group class directly in HTML */
+.category-card-overlay {
+  @apply absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center transition-opacity duration-300;
+}
+
+.category-card:hover .category-card-overlay {
+  @apply bg-opacity-40;
+}
+
+.category-card-title {
+  @apply text-white text-xl font-semibold transition-transform duration-300;
+}
+
+.category-card:hover .category-card-title {
+  transform: translateY(-4px);
+}
+
+/* Heart icon animation */
+.heart-icon {
+  @apply transition-all duration-300;
+}
+
+.heart-icon.active {
+  @apply text-red-500 scale-110;
+}
+
+.heart-icon:not(.active):hover {
+  @apply text-red-400;
+}
+
+/* Button transitions */
+.btn {
+  @apply transition-all duration-200;
+}
+
+/* Image gallery */
+.gallery-thumbnail {
+  @apply border-2 rounded cursor-pointer transition-all;
+}
+
+.gallery-thumbnail.active {
+  @apply border-teal-500;
+}
+
+.gallery-thumbnail:not(.active):hover {
+  @apply border-gray-400;
+}
