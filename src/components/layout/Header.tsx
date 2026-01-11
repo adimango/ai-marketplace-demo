@@ -107,7 +107,7 @@ export default function Header() {
                 </Link>
               )}
               <Link
-                href="/account/favorites"
+                href={mounted && isLoggedIn ? "/account" : "/sign-in"}
                 className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 hover:bg-teal-50 transition-colors"
               >
                 <svg
@@ -121,7 +121,7 @@ export default function Header() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={1.5}
-                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
                   />
                 </svg>
               </Link>
